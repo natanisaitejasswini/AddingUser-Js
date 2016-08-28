@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Adding User</title>
+	<link rel="stylesheet" href="Addinguser.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('form').submit(function(){
+				$('#My_Table').append('<tr>' + '<td>' + $('#name1').val() + '</td>' + '<td>' + $('#name2').val() + '</td>' + '<td>' + $('#name3').val() + '</td>' + '<td>' + $('#name4').val() + '</td>' + '</td>' + '</tr>')
+				alert('you are submitting me');
+					$('.text_input').val();
+					return false;
+			});
+		});
+	</script>
+</head>
+<body>
+	<table id="My_Table" class="tablesorter">
+			<thead>
+				<tr>
+					<td>First Name</td>
+					<td>Last Name</td>
+					<td>Email Address</td>
+					<td>Contact#</td>
+				</tr>
+			</thead>
+	</table>
+	<h2>Adding User</h2>
+	<form>
+		First Name:<input id="name1" class="text_input" type="text" name="FirstName"><br>
+		Last Name:<input id="name2" class="text_input" type="text" name="LastName"><br>
+		Email Address:<input id="name3" class="text_input" type="email" name="EmailAddress"><br>
+		Contact#:<input id="name4" class="text_input" type="text" name="contact#"><br>
+		<input type='submit' value='Add User'>
+	</form>
+</body>	
+</html>

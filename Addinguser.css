@@ -1,0 +1,51 @@
+*{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+}
+table{
+border-collapse: collapse;
+margin-top: 10px;
+margin-left: 100px
+}
+table{
+	border: 1px solid black;
+}
+td{
+padding-left: 10px;
+padding-right: 10px;
+}
+h2{
+border-bottom: 1px solid black;
+margin-top: 300px;
+margin-left: 100px;
+width: 240px;
+}
+form{
+margin-left: 100px;
+margin-top: 26px;
+}
+#name1, #name2, #name3, #name4{
+padding-bottom: 10px;
+margin-bottom: 6px;
+}
+#name1{
+margin-left: 30px;
+}
+#name2{
+margin-left: 30px;
+}
+#name3{
+margin-left: 4px;
+}
+#name4{
+margin-left: 44px;
+}
+input[type=submit]{
+margin-left: 35px;
+width: 100px;
+height: 20px;
+border-radius: 5px;
+margin-top: 20px;
+background-color: grey;
+}
